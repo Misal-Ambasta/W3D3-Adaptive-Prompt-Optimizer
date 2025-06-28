@@ -45,6 +45,11 @@ A tool that optimizes prompts for specific AI coding tools. This application ana
 └── package.json        # Root package.json for running both services
 ```
 
+## Screenshots
+
+![screencapture-localhost-5173-2025-06-28-21_30_55](https://github.com/user-attachments/assets/6fc018f2-91ad-4b62-8cc5-be03355016f8)
+
+
 ## Setup
 
 ### Prerequisites
@@ -117,7 +122,7 @@ POST /api/optimize-prompt
 ```
 
 **Request Body:**
-```json
+```js
 {
   "prompt": "string",  // The original prompt to optimize
   "tool": "string"    // The target tool (e.g., "github-copilot", "cursor")
@@ -125,9 +130,9 @@ POST /api/optimize-prompt
 ```
 
 **Response:**
-```json
+```js
 {
-  "original": "string",    // The original prompt
+  "original": "string",    ## The original prompt
   "optimized": "string",   // The optimized prompt
   "intent": "string",      // Detected intent (code generation, debugging, etc.)
   "complexity": "string",  // Assessed complexity (simple, medium, complex)
