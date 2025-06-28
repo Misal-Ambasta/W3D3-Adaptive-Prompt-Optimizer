@@ -1,0 +1,149 @@
+{
+  "tools": [
+    {
+      "name": "GitHub Copilot",
+      "id": "github-copilot",
+      "strengths": [
+        "Code completion",
+        "Function generation",
+        "Comment-to-code conversion"
+      ],
+      "weaknesses": [
+        "Complex architectural decisions",
+        "Explaining existing code",
+        "Debugging specific issues"
+      ],
+      "promptOptimizationStrategies": [
+        "Use clear function signatures",
+        "Provide context with comments",
+        "Break complex tasks into smaller steps"
+      ]
+    },
+    {
+      "name": "Cursor",
+      "id": "cursor",
+      "strengths": [
+        "Contextual code understanding",
+        "Refactoring suggestions",
+        "Explaining code blocks"
+      ],
+      "weaknesses": [
+        "Language-specific optimizations",
+        "Performance considerations"
+      ],
+      "promptOptimizationStrategies": [
+        "Specify language and framework",
+        "Include relevant context",
+        "Ask for step-by-step explanations"
+      ]
+    },
+    {
+      "name": "Replit AI",
+      "id": "replit-ai",
+      "strengths": [
+        "Interactive coding assistance",
+        "Project-wide context awareness",
+        "Web application development"
+      ],
+      "weaknesses": [
+        "Complex algorithm implementation",
+        "Large codebase navigation"
+      ],
+      "promptOptimizationStrategies": [
+        "Reference specific files or functions",
+        "Specify desired output format",
+        "Provide examples when possible"
+      ]
+    },
+    {
+      "name": "Amazon CodeWhisperer",
+      "id": "code-whisperer",
+      "strengths": [
+        "AWS service integration",
+        "Security-focused suggestions",
+        "Best practice recommendations"
+      ],
+      "weaknesses": [
+        "Non-AWS specific tasks",
+        "Creative problem-solving"
+      ],
+      "promptOptimizationStrategies": [
+        "Mention AWS services explicitly",
+        "Ask for security considerations",
+        "Request best practices"
+      ]
+    },
+    {
+      "name": "Tabnine",
+      "id": "tabnine",
+      "strengths": [
+        "Local code pattern recognition",
+        "Lightweight suggestions",
+        "IDE integration"
+      ],
+      "weaknesses": [
+        "Complex architectural decisions",
+        "Explaining code rationale"
+      ],
+      "promptOptimizationStrategies": [
+        "Keep prompts concise",
+        "Focus on specific completion needs",
+        "Provide local context"
+      ]
+    },
+    {
+      "name": "Codeium",
+      "id": "codeium",
+      "strengths": [
+        "Fast code completion",
+        "Multi-language support",
+        "Context-aware suggestions"
+      ],
+      "weaknesses": [
+        "Complex refactoring",
+        "Project-wide architecture"
+      ],
+      "promptOptimizationStrategies": [
+        "Be specific about language and framework",
+        "Provide function context",
+        "Ask for specific patterns"
+      ]
+    },
+    {
+      "name": "Claude",
+      "id": "claude",
+      "strengths": [
+        "Detailed explanations",
+        "Understanding complex requirements",
+        "Reasoning about code"
+      ],
+      "weaknesses": [
+        "Specific framework knowledge",
+        "Latest language features"
+      ],
+      "promptOptimizationStrategies": [
+        "Provide detailed context",
+        "Ask for reasoning",
+        "Request multiple approaches"
+      ]
+    },
+    {
+      "name": "ChatGPT/GPT-4",
+      "id": "chatgpt",
+      "strengths": [
+        "Versatile code generation",
+        "Explaining concepts",
+        "Debugging assistance"
+      ],
+      "weaknesses": [
+        "Keeping track of large codebases",
+        "Latest framework versions"
+      ],
+      "promptOptimizationStrategies": [
+        "Use clear, structured requests",
+        "Specify output format",
+        "Provide context and constraints"
+      ]
+    }
+  ]
+}
